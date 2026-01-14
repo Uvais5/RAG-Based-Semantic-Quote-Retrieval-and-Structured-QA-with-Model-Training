@@ -160,3 +160,50 @@ This satisfies the **Streamlit deployment requirement** in the assignment.
   ],
   "summary": "..."
 }
+## 🚀 Setup & Run Instructions (Task 2 – Streamlit RAG App)
+
+Follow the steps below to run the **RAG-based Semantic Quote Retrieval system** locally.
+
+---
+
+## 📦 Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Uvais5/RAG-Based-Semantic-Quote-Retrieval-and-Structured-QA-with-Model-Training.git
+    cd RAG-Based-Semantic-Quote-Retrieval-and-Structured-QA-with-Model-Training
+    ```
+
+2.  **Create a virtual environment** (optional but recommended):
+    ```bash
+    python -m venv venv
+    # Windows
+    .\venv\Scripts\activate
+    # Mac/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## 🔑 Configuration
+
+You need a **Groq API Key** to run this project.
+:
+    ```bash
+    # .env
+    GROQ_API_KEY=your_api_key_here
+    ```
+
+## 🏃‍♂️ Usage
+
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser at `http://localhost:8501`.
+
