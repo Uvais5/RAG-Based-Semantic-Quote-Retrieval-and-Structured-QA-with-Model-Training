@@ -1,0 +1,4 @@
+pandas
+faiss-cpu
+groq
+sentence-transformers
