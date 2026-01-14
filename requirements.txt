@@ -2,3 +2,5 @@ pandas
 faiss-cpu
 groq
 sentence-transformers
+streamlit
+python-dotenv
